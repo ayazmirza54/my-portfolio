@@ -112,6 +112,7 @@ h2{
 
 @media screen and (max-width: 768px) {
   h2 {
+    align-items: center;
     grid-template-rows: 1fr  ;
     grid-template-columns: 1fr ;
     gap: 25px;
