@@ -116,6 +116,7 @@ h2{
     grid-template-rows: 1fr  ;
     grid-template-columns: 1fr ;
     gap: 25px;
+    margin: 200px
   }
 }
 
