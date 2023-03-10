@@ -17,8 +17,7 @@ import {
 } from "../assets";
 import wipro from "../assets/company/wipro.png"
 import cosmo from "../assets/company/cosmo.jpeg"
-import bash from "../assets/tech/bash.jpg"
-import abinitio from "../assets/tech/Ab-Initio-Logo.png"
+
 export const navLinks = [
   {
     id: "about",
@@ -50,48 +49,7 @@ const services = [
   
 ];
 
-const technologies = [
-  {
-    name: "HTML 5",
-    icon: html,
-  },
-  {
-    name: "CSS 3",
-    icon: css,
-  },
-  {
-    name: "JavaScript",
-    icon: javascript,
-  },
-  {
-    name: "React JS",
-    icon: reactjs,
-  },
-  {
-    name: "Tailwind CSS",
-    icon: tailwind,
-  },
-  {
-    name: "Node JS",
-    icon: nodejs,
-  },
-  {
-    name: "git",
-    icon: git,
-  },
-  {
-    name: "figma",
-    icon: figma,
-  },
-  {
-    name: "bash",
-    icon: bash
-  },
-  {
-    name: "abintio",
-    icon: abinitio
-  }
-];
+
 
 const experiences = [
   {
@@ -184,4 +142,4 @@ const projects = [
   },
 ];
 
-export { services, technologies, experiences, projects };
+export { services, experiences, projects };
