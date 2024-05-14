@@ -24,6 +24,9 @@ import tailwind from "./tech/tailwind.png";
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
+import aibuddy from "./aibuddy.png";
+import rockpaper from "./rockpaper.png"
+
 
 export {
   logo,
@@ -46,4 +49,6 @@ export {
   carrent,
   jobit,
   tripguide,
+  aibuddy,
+  rockpaper
 };

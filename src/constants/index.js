@@ -14,6 +14,8 @@ import {
   carrent,
   jobit,
   tripguide,
+  aibuddy,
+  rockpaper
 } from "../assets";
 import wipro from "../assets/company/wipro.png"
 import cosmo from "../assets/company/cosmo.jpeg"
@@ -35,12 +37,13 @@ export const navLinks = [
 
 const services = [
   {
-    title: "Frontend Developer",
-    icon: web,
-  },
-  {
     title: "Ab Initio Developer",
     icon: backend,
+    
+  },
+  {
+    title: "Frontend Web Developer",
+    icon: web,
   },
   {
     title: "Shell Scripting",
@@ -53,7 +56,7 @@ const services = [
 
 const experiences = [
   {
-    title: "Senior Project Engineer",
+    title: "Project Engineer",
     company_name: "Wipro",
     icon: wipro,
     iconBg: "#383E56",
@@ -61,26 +64,33 @@ const experiences = [
     points: [
       "I have worked on Ab Initio ETL tool as a tool to process client side information and provide valuable insights regarding the data",
       "My other responsibilities involved interacting with cleint and provide insights on data.",
+      "Extensive experience in designing and parameterizing graphs, scheduling jobs through Control Centre, and proficiently scripting Unix shell commands for ETL optimization."
+      ,"Designing Ab Initio graphs to transform, cleanse, and enrich data based on business requirements.",
+      "Monitoring ETL job execution and addressing any issues promptly to minimize data processing delays.",
+      "Created shell scripts to automate monitoring of critical server metrics.",
+      "Automated monitoring of continuous jobs through shell scripts.",
+      "Leveraged tools like Grafana, Control Center, Query>it, and SQLExplorer for operational efficiency and streamlined processes.",
+      "Appointed as L2, providing guidance and technical assistance to L1 teammates within the operations team"
     ],
   },
   {
-    title: "Intern",
+    title: "Frontend web developer",
     company_name: "Cosmo Info solution",
     icon: cosmo,
     iconBg: "#E6DEDD",
-    date: "Nov 2018 - June 2019",
+    date: "Jun 2019 - Nov 2019",
     points: [
-      "Developing web applications using React.js and other related technologies.",
-      "My primary task was to develop centain parts of front end of some internal projects of Cosmo Info Solutions which included building the UI of landing page of Cosmo Info Solutions official website using Reactjs."  ],
+      "Skilled frontend developer proficient in HTML, CSS, JavaScript, and ReactJS",
+      "Experienced in designing eye-catching landing pages to boost user interaction."  ],
   },
 ];
 
 
 const projects = [
   {
-    name: "Text/Code Utilities",
+    name: "AI Buddy Web App",
     description:
-      "Implemented OpenAI text-davnici-003 api in my own react js app and added new type of feaure on the basis of predefined custom promts that will generate different type of output to meet the user's specific nixhe.",
+      "Generative AI web app developed using reactjs and google gemini api, users can interact with the gemini api in a chat style appication.",
     tags: [
       {
         name: "react",
@@ -95,8 +105,8 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: carrent,
-    source_code_link: "https://www.ai-utilities.in",
+    image: aibuddy,
+    source_code_link: "https://gemini-ai-buddy.vercel.app/",
   },
   {
     name: "Movie Finder",
@@ -140,6 +150,28 @@ const projects = [
     image: tripguide,
     source_code_link: "https://quote-generator-live.netlify.app",
   },
+  {
+    name: "Rock Paper Scissor Game web app",
+    description:
+      "A simple web app in which users can play rock paper scissor game",
+    tags: [
+      {
+        name: "html",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "css",
+        color: "green-text-gradient",
+      },
+      {
+        name: "js",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: rockpaper,
+    source_code_link: "https://rock-paper-scrissors.netlify.app/",
+  },
+  
 ];
 
 export { services, experiences, projects };

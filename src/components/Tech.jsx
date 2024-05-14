@@ -25,10 +25,7 @@ const Tech = () => {
         src="https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white"
         alt="CSS3"
       />{" "}
-      <img className="scale-150" 
-        src="https://img.shields.io/badge/markdown-%23000000.svg?style=for-the-badge&logo=markdown&logoColor=white"
-        alt="Markdown"
-      />{" "}
+      
       
       
      
@@ -50,21 +47,12 @@ const Tech = () => {
         alt="React"
       />{" "}
      
-      <img className="scale-150" 
-        src="https://img.shields.io/badge/React_Router-CA4245?style=for-the-badge&logo=react-router&logoColor=white"
-        alt="React Router"
-      />{" "}
+     
       
       
-      <img className="scale-150" 
-        src="https://img.shields.io/badge/tailwindcss-%2338B2AC.svg?style=for-the-badge&logo=tailwind-css&logoColor=white"
-        alt="TailwindCSS"
-      />{" "}
+     
       
-      <img className="scale-150" 
-        src="https://img.shields.io/badge/bootstrap-%23563D7C.svg?style=for-the-badge&logo=bootstrap&logoColor=white"
-        alt="Bootstrap"
-      />{" "}
+      
        <img className="scale-150"
         src="https://img.shields.io/badge/shell_script-%23121011.svg?style=for-the-badge&logo=gnu-bash&logoColor=white"
         alt="Shell Script"
@@ -77,30 +65,36 @@ const Tech = () => {
         src="https://img.shields.io/badge/postgres-%23316192.svg?style=for-the-badge&logo=postgresql&logoColor=white"
         alt="Postgres"
       />{" "}
-      <img className="scale-150"
-        src="https://img.shields.io/badge/express.js-%23404d59.svg?style=for-the-badge&logo=express&logoColor=%2361DAFB"
-        alt="Express.js"
-      />{" "}
      
-     <img className="scale-150" 
-        src="https://img.shields.io/badge/c++-%2300599C.svg?style=for-the-badge&logo=c%2B%2B&logoColor=white"
-        alt="C++"
-      />{" "}
+     
     
-      <img className="scale-150"
-        src="https://img.shields.io/badge/figma-%23F24E1E.svg?style=for-the-badge&logo=figma&logoColor=white"
-        alt="Figma"
-      />{" "}
-     <img className="scale-150"
-        src="https://img.shields.io/badge/Notion-%23000000.svg?style=for-the-badge&logo=notion&logoColor=white"
-        alt="Notion"
-      />{" "}
+    
+    
       
       <img className="scale-150"
         src="https://img.shields.io/badge/Ab%20Initio-Dev-red?style=for-the-badge"
         alt="Ab Initio"
       />
-      
+      <img className="scale-150"
+        src="https://img.shields.io/badge/MS%20Word-blue?style=for-the-badge"
+        alt="MS Word"
+      />
+      <img className="scale-150"
+        src="https://img.shields.io/badge/MS%20Excel-green?style=for-the-badge"
+        alt="MS Excel"
+      />
+       <img className="scale-150"
+        src="https://img.shields.io/badge/MS%20Powerpoint-orange?style=for-the-badge"
+        alt="MS Powerpoint"
+      />
+       <img className="scale-150"
+        src="https://img.shields.io/badge/Power%20BI-yellow?style=for-the-badge"
+        alt="Power BI"
+      />
+      <img className="scale-150"
+        src="https://img.shields.io/badge/Git-grey?style=for-the-badge&logo=git"
+        alt="Power BI"
+      />
      
       
       

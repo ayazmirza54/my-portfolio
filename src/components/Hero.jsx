@@ -19,7 +19,10 @@ const Hero = () => {
             Hi, I'm <span className='text-[#915EFF]'>Ayaz Mirza</span>
           </h1>
           <p className={`${styles.heroSubText} mt-2 text-white-100`}>
-          I am a front-end developer who is passionate about creating functional and beautiful websites. I enjoy learning new skills, staying up-to-date with technology, and challenging myself. Outside of work, I like watching YouTube, listening to music, and playing badminton.<br className='sm:block hidden' />
+          Skilled Ab Initio developer adept at creating robust shell scripts, ensuring smooth data
+processing workflows. Proficient in crafting optimized SQL queries, maximizing database
+performance and efficiency. Skilled in leveraging Power BI to create visually compelling
+dashboards and reports, facilitating data-driven decision-making processes. Passionate front-end developer with a knack for crafting engaging user experiences through clean, efficient code. Proficient in HTML, CSS, and JavaScript, with a keen eye for design details and a commitment to accessibility. Dedicated to continuous learning and staying updated on the latest web development trends.<br className='sm:block hidden' />
           </p>
         </div>
       </div>
