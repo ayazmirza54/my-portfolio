@@ -30,12 +30,12 @@ const Contact = () => {
     e.preventDefault();
     setLoading(true);
     emailjs.init({
-      publicKey: 'process.env.REACT_APP_EMAILJS_PUBLIC_KEY',
+      publicKey: 'Al8FNmK9I11Adi6Pr',
     });
     emailjs
       .send(
-        'process.env.REACT_APP_EMAILJS_SERVICE_ID',
-        'process.env.REACT_APP_EMAILJS_TEMPLATE_ID',
+        'service_4y57ffk',
+        'template_x5mb1qs',
         {
           from_name: form.name,
           to_name: "Ayaz Mirza",
