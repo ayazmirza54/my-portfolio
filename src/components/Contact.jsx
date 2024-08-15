@@ -30,7 +30,7 @@ const Contact = () => {
     e.preventDefault();
     setLoading(true);
     emailjs.init({
-      publicKey: 'Al8FNmK9I11Adi6Pr',
+      publicKey: 'nrN6uQOc3xC78rMl2',
     });
     emailjs
       .send(
