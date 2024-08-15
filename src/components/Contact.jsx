@@ -29,7 +29,9 @@ const Contact = () => {
   const handleSubmit = (e) => {
     e.preventDefault();
     setLoading(true);
-
+    emailjs.init({
+      publicKey: 'process.env.REACT_APP_EMAILJS_PUBLIC_KEY',
+    });
     emailjs
       .send(
         process.env.REACT_APP_EMAILJS_SERVICE_ID,
@@ -40,8 +42,8 @@ const Contact = () => {
           from_email: form.email,
           to_email: "ayazmirza54@gmail.com",
           message: form.message,
-        },
-        process.env.REACT_APP_EMAILJS_PUBLIC_KEY
+        }
+        
       )
       .then(
         () => {
